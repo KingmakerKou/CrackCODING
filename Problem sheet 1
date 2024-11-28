@@ -1,0 +1,102 @@
+import java.util.Scanner;
+
+// QUESTION 1
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        String name = sc.next();
+        String name2 = sc.next();
+        System.out.println(num);
+        System.out.println(name);
+        System.out.println(name2);
+    }
+}
+
+//QUESTION 2
+/*class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("enter angle 1");
+        int x = sc.nextInt();
+        
+        System.out.println("enter angle 2");
+        int y = sc.nextInt();
+        
+        System.out.println("enter angle 3");
+        int z = sc.nextInt();
+        
+        if(x+y+z == 180){
+            System.out.println("Triangle can be formed");
+        }
+        else{
+            System.out.println("Traingle cannot be formed");
+        }
+        
+    }
+}*/
+
+//QUESTION 3
+
+/*class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your grades!");
+        int x = sc.nextInt();
+        
+        if(x >= 90){
+            System.out.println("Grade A");
+        }
+        else if(x>=80){
+            System.out.println("Grade B");
+        }
+        else if(x>=60){
+            System.out.println("Grade C");
+        }
+        else if(x>=35){
+            System.out.println("Grade D");
+        }
+        else{
+            System.out.println("FAIL!!!!");
+        }
+        
+    }
+}*/
+
+//QUESTION 4
+/*class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your size??");
+        int size  = sc.nextInt();
+        
+        switch(size){
+            case 30:
+                System.out.println("Medium");
+                break;
+            case 38:
+                System.out.println("Large");
+                break;
+            case 42:
+                System.out.println("XLarge");
+                break;
+            default:
+                System.out.println("Invalid ! Size is not available");
+        }
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
