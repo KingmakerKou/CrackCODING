@@ -1,0 +1,68 @@
+//this is the second problem sheet given by nandy (covering JAVA LOOPS)
+
+import java.util.*;
+
+/*class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter x:");
+        int x = sc.nextInt();
+        System.out.println("enter y:");
+        int y = sc.nextInt();
+        
+        for(int i = 1 ; i<=y ; i++){
+            System.out.println(x);
+        }
+    }
+}*/
+
+/*lass Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter a:");
+        int a = sc.nextInt();
+        
+        for(int i = a; i <= 1000 ; i=i+a){
+            System.out.println(i);
+        }
+        
+    }
+}*/
+
+/*class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("enter first name:");
+        String first = sc.nextLine();
+        
+        System.out.println("enter second name:");
+        String second = sc.nextLine();
+        
+        System.out.println("enter n");
+        int n = sc.nextInt();
+        
+        for(int i=0 ; i<n ; i++){
+            System.out.println(first+ " " +second);
+        }
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
