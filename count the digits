@@ -1,0 +1,18 @@
+//count the digit of a number
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        //System.out.println("Try programiz.pro");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        int count = 0;
+        while(n>0){
+            int lb = n%10;
+            n=n/10;
+            count++;
+        }
+        System.out.println(count);
+    }
+}
