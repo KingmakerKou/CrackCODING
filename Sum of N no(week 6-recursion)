@@ -1,0 +1,16 @@
+sum of n numbers:
+
+import java.util.*;
+
+class Main {
+    public static int PrintSum(int n){
+    if(n==0){
+        return ;
+    }
+    return n+PrintSum(n-1);
+}
+    public static void main(String[] args) {
+        int n = 3;
+        System.out.println(PrintSum(n));
+    }
+}
