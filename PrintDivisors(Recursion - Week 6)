@@ -1,0 +1,18 @@
+//write the recursive program to print the divisors of N
+
+class Main{
+    public static void Printdivisors(int n ,int i){
+        if(i>n){
+            return;
+        }
+        
+        if(n%i==0){
+            System.out.print(i+" ");
+        }
+        Printdivisors(n,i+1);
+    }
+    public static void main(String[] args){
+        int n = 12;
+        Printdivisors(n ,1);
+    }
+}
