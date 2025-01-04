@@ -1,0 +1,17 @@
+find the power of the number using recursion
+
+//find power of a number using recursion
+
+class Main{
+    public static int FindPower(int a , int k){
+        if(k==1){
+            return a;
+        }
+        return a * FindPower(a,k-1); 
+    }
+    public static void main(String[] args){
+        int a = 5;
+        int k = 2;
+        System.out.println(FindPower(a,k));
+    }
+}
